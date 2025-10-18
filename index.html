@@ -3,25 +3,51 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Homeland RolePlay — Скоро открытие!</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Homeland RolePlay</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
+  <div class="container">
     <h1>Homeland RolePlay</h1>
-    <p>SAMP RP проект — открытие скоро!</p>
+    <p class="title">OpenMP RolePlay проект</p>
+    <p class="subtitle">coming in 2026</p>
+
 
     <div class="timer" id="timer">
-      <div><span id="days">0</span><div class="label">Дни</div></div>
-      <div><span id="hours">0</span><div class="label">Часы</div></div>
-      <div><span id="minutes">0</span><div class="label">Минуты</div></div>
-      <div><span id="seconds">0</span><div class="label">Секунды</div></div>
+      <div><span id="days">00</span><p>дни</p></div>
+      <div><span id="hours">00</span><p>часы</p></div>
+      <div><span id="minutes">00</span><p>минуты</p></div>
+      <div><span id="seconds">00</span><p>секунды</p></div>
     </div>
 
-    <a href="https://discord.gg/" target="_blank" class="btn">Присоединиться в Discord</a>
-  </main>
+    <div class="social-links">
+      <a class="social-btn discord disabled">
+        <img src="icons/discord.svg" alt="Discord">
+      </a>
 
-  <footer>© 2025 Homeland RP. Все права защищены.</footer>
+      <a href="https://t.me/homelandrp_official" target="_blank" class="social-btn telegram">
+        <img src="icons/telegram.svg" alt="Telegram">
+      </a>
+
+      <a href="https://www.tiktok.com/@homelandsamp" target="_blank" class="social-btn tiktok">
+        <img src="icons/tiktok.svg" alt="TikTok">
+      </a>
+
+      <a href="https://www.youtube.com/@homelandrp_official" target="_blank" class="social-btn youtube">
+        <img src="icons/youtube.svg" alt="YouTube">
+      </a>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© Trainees, 2025.</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
